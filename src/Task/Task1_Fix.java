@@ -1,5 +1,6 @@
 package Task;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Task1_Fix {
@@ -25,6 +26,13 @@ public class Task1_Fix {
     }
 
     public static void main(String[] args) {
+        Arrays.sort(datas);
+        System.out.println("Outputs: ");
+        for (int i = 0 ; i< datas.length; i++){
+            System.out.print(datas[i]+ " ");
+        }
+
+        System.out.println("\n");
         System.out.print("Input Index: ");
         a = c.nextInt();
         System.out.println();
